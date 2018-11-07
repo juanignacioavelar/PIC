@@ -1,5 +1,5 @@
 ;-------------- Archivos de inclusión (Librerías) -----------------------------
-#include "p16f84a.inc"			; Librería del PIC16F84A
+#include "p16f84.inc"			; Librería del PIC16F84
 ;-------------- Bits de Configuración -----------------------------------------
  __CONFIG _FOSC_XT & _WDTE_OFF & _PWRTE_OFF & _CP_OFF
 ;-------------- Vector de reset -----------------------------------------------
