@@ -1,5 +1,5 @@
 ;-------------- Microcontrolador a usar ---------------------------------------
-		LIST	P=16F84A	; Usaremos el PIC16F84A
+		LIST	P=16F84		; Usaremos el PIC16F84
 		RADIX	HEX		; Valores hexadecimales
 ;-------------- Variables a usar ----------------------------------------------
 STATUS		EQU	0x03		; Declaramos la variable STATUS
