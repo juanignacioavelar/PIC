@@ -33,4 +33,4 @@ ENCENDER	BSF	PORTB,RB0		; Manda un 1 en RB0 para encender el led
 APAGAR		BCF	PORTB,RB0		; Manda un 0 en RB0 para apagar el led
 		GOTO	COMP1			; Brinca a la etiqueta COMP1
 ;============== Fin del Programa ==============================================
-		END						; Le indica al ensamblador el final
+		END				; Le indica al ensamblador el final
