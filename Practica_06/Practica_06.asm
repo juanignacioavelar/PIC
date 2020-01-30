@@ -29,7 +29,7 @@ COMP2		BTFSC	PORTA,RA0		; Compara si RA0=0 y brinca a comparar RA2
 ;-------------- Subrutina prender bomba de agua -------------------------------
 ENCENDER	BSF	PORTB,RB0		; Manda un 1 en RB0 para encender el led
 		GOTO	COMP2			; Brinca a la etiqueta COMP2
-;-------------- Subrutina prender bomba de agua -------------------------------
+;-------------- Subrutina apagar bomba de agua -------------------------------
 APAGAR		BCF	PORTB,RB0		; Manda un 0 en RB0 para apagar el led
 		GOTO	COMP1			; Brinca a la etiqueta COMP1
 ;============== Fin del Programa ==============================================
