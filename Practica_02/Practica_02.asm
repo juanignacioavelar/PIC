@@ -1,3 +1,8 @@
+;-----------------------------------------------------------------------------;
+; Práctica 2: Entradas y salidas digitales				      |
+; Microcontrolador: PIC16F84A Frecuencia: 4MHz Voltaje:5V		      |
+; Herramienta: MPLAB v8.92 – Microchip MPASM Toolsuite			      |
+;-----------------------------------------------------------------------------;
 ;-------------- Archivos de inclusión (Librerías) -----------------------------
 #include "p16f84.inc"			; Librería del PIC16F84
 ;-------------- Bits de Configuración -----------------------------------------
