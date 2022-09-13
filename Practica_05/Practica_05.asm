@@ -1,7 +1,7 @@
 ;-----------------------------------------------------------------------------;
-; Práctica 5: Creación de librerías ;
-; Microcontrolador: PIC16F84A Frecuencia: 4MHz Voltaje:5V ;
-; Herramienta: MPLAB v8.92 – Microchip MPASM Toolsuite ;
+; Práctica 5: Creación de librerías ;					      |
+; Microcontrolador: PIC16F84A Frecuencia: 4MHz Voltaje:5V ;		      |
+; Herramienta: MPLAB v8.92 – Microchip MPASM Toolsuite ;		      |
 ;-----------------------------------------------------------------------------;
 ;-------------- Archivos de inclución (Librerias) -----------------------------
 #include "p16f84a.inc"
