@@ -17,3 +17,4 @@ R_INTERNA	DECFSZ	CONTADOR1,1 	; Se resta 1 a X
 		GOTO	R_EXTERNA   	; Se vuelven a cargar Y= y X=,
 				    	; y se repite la rutina intermedia
 		RETURN		    	; Salimos del RETARDO_1seg
+;============== Fin de Funciones ==============================================
