@@ -1,8 +1,8 @@
-;-----------------------------------------------------------------------
-; Práctica 1: Lenguaje Ensamblador 					|
-; Microcontrolador: PIC16F84A Frecuencia: 4MHz Voltaje:5V 		|
-; Herramienta: MPLAB v8.92 – Microchip MPASM Toolsuite 			|
-;-----------------------------------------------------------------------
+;------------------------------------------------------------------------------
+; Práctica 1: Lenguaje Ensamblador 					      |
+; Microcontrolador: PIC16F84A Frecuencia: 4MHz Voltaje:5V 		      |
+; Herramienta: MPLAB v8.92 – Microchip MPASM Toolsuite 			      |
+;------------------------------------------------------------------------------
 ;-------------- Microcontrolador a usar ---------------------------------------
 		LIST	P=16F84A	; Usaremos el PIC16F84A
 		RADIX	HEX		;
