@@ -4,7 +4,7 @@
 ; Herramienta: MPLAB v8.92 – Microchip MPASM Toolsuite			      |
 ;-----------------------------------------------------------------------------;
 ;-------------- Archivos de inclusión (Librerías) -----------------------------
-#include "p16f84.inc"			; Librería del PIC16F84
+#include "p16f84a.inc"			; Librería del PIC16F84A
 ;-------------- Bits de Configuración -----------------------------------------
  __CONFIG _FOSC_XT & _WDTE_OFF & _PWRTE_OFF & _CP_OFF
 ;-------------- Vector de reset -----------------------------------------------
