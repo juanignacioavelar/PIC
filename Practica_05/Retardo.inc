@@ -1,6 +1,6 @@
 ;============== Retardo =======================================================
 ;-------------- Subrutina RETARDO ---------------------------------------------
-RETARDO_1seg	MOVLW	d'1'	    	; W se carga con el número  en decimal
+RETARDO		MOVLW	d'1'	    	; W se carga con el número  en decimal
 		MOVWF	CONTADOR3   	; Movemos el valor de W a la variable CONT3
 ;-------------- Sección R_EXTERNA -------------------------------------------
 R_EXTERNA	MOVLW	d'100'	    	; W se carga con el número  en decimal
