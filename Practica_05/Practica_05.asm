@@ -4,7 +4,7 @@
 ; Herramienta: MPLAB v8.92 – Microchip MPASM Toolsuite ;		      |
 ;-----------------------------------------------------------------------------;
 ;-------------- Archivos de inclución (Librerias) -----------------------------
-#include "p16f84a.inc"
+#INCLUDE "p16f84a.inc"
 ;-------------- Bits de Configuración -----------------------------------------
 ; __config 0x3FF9
 __CONFIG _FOSC_XT & _WDTE_OFF & _PWRTE_OFF & _CP_OFF
@@ -38,6 +38,6 @@ BOTON_0		CALL	CORRIMIENTO 	; Manda a llamar CORRIMIENTO.
 BOTON_1		CALL	VISTOSO	    	; Manda a llamar VISTOSO.
 		GOTO	PRINCIPAL   	; Se hace un loop infinito
 ;============== Fin del Programa ==============================================
-#include <Funciones.inc>		; Librería subrutina FUNCIONES.
+#INCLUDE <Funciones.inc>		; Librería subrutina FUNCIONES.
 #INCLUDE <Retardo.inc>			; Librería subrutina RETARDO.
 		END		    	; Le indica al ensamblador el final
