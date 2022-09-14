@@ -5,14 +5,14 @@ CORRIMIENTO	MOVLW	d'8'		; Guardamos un 8 en el registro W
 ;-------------- Ascendente ------------------------------------
 CORRIMIENTO_A	RLF	PORTB,1		; Movemos un 1 a la izquierda atraves del carry
 		CALL	RETARDO_1seg	; Mandamos llamar la subrutina RETARDO_1Seg
-		DECFSZ	TEMPORAL	; Le restamos un 1 a la variable TEMPORAL
+		DECFSZ	TEMPORAL,1	; Le restamos un 1 a la variable TEMPORAL
 		GOTO	CORRIMIENTO_A	; Se va a la etiqueta CORRIMIENTO_A
 		MOVLW	d'8'		; Guardamos un 8 en el registro W
 		MOVWF	TEMPORAL	; Movemos el valor de W en la variable TEMPORAL
 ;-------------- Descendente -----------------------------------
 CORRIMIENTO_B	RRF	PORTB,1		; Movemos un 1 a la derecha atraves del carry
 		CALL	RETARDO_1seg	; Mandamos llamar la subrutina RETARDO_1Seg
-		DECFSZ	TEMPORAL	; Le restamos un 1 a la variable TEMPORAL
+		DECFSZ	TEMPORAL,1	; Le restamos un 1 a la variable TEMPORAL
 		GOTO	CORRIMIENTO_B	; Se va a la etiqueta CORRIMIENTO_B
 		RETURN			; Regresamos a la posición del Contador del Programa
 ;-------------- Subrutina Vistoso ---------------------------------------------
